@@ -3,16 +3,26 @@
   "title": "Pendragon Base Content",
   "version": "1.0.0",
   "compatibility": {
-    "minimum": "11",
-    "maximum": "12",	
-    "verified": "12.325"
+    "minimum": "12",
+    "maximum": "12",
+    "verified": "12.327"
   },
   "description": "Basic content for the 6th Edition on Pendragon",
   "authors": [
     {
-      "name": "Dangermouse"
+      "name": "Dangermouse",
+      "flags": {}
     }
   ],
+"relationships": {
+    "systems": [
+      {
+        "id": "Pendragon",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
   "packs": [
     {
       "name": "base-skills",
@@ -151,11 +161,15 @@
       "label": "Base Tables",
       "path": "packs/base-tables",
       "type": "RollTable",
+      "system": "Pendragon",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "Pendragon"
+      }
     }
-  ]
+  ],
+  "url": "https://github.com/Genii-Locorum/p6ebase",
+  "manifest": "https://github.com/Genii-Locorum/p6ebase/releases/latest/download/module.json",
+  "download": "https://github.com/Genii-Locorum/p6ebase/releases/download/v1/module.zip"
+ 
 }
