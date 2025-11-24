@@ -1,7 +1,7 @@
 {
   "id": "p6ebase",
   "title": "Pendragon Base Content",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "compatibility": {
     "minimum": "12",
     "maximum": "13",
@@ -81,7 +81,7 @@
     },
     {
       "name": "base-armour",
-      "label": "Base Armour",
+      "label": "Base Armor",
       "path": "packs/base-armour",
       "type": "Item",
       "system": "Pendragon",
@@ -170,6 +170,6 @@
   ],
   "url": "https://github.com/Genii-Locorum/p6ebase",
   "manifest": "https://github.com/Genii-Locorum/p6ebase/releases/latest/download/module.json",
-  "download": "https://github.com/Genii-Locorum/p6ebase/releases/download/1.0.6/module.zip",
+  "download": "https://github.com/Genii-Locorum/p6ebase/releases/download/1.0.7/module.zip",
   "flags": {}
 }
